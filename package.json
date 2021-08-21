@@ -6,7 +6,9 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",    
+    "docs":"ng build --prod --output-path docs --base-href /anandportfolio/"  
+
   },
   "private": true,
   "dependencies": {
